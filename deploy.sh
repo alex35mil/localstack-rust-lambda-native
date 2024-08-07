@@ -15,7 +15,7 @@ RELEASE_DIR=target/release
 FN_DIR=$LAMBDA_DIR/$BIN
 
 mkdir -p $LAMBDA_DIR
-cargo build --bin $BIN --release
+cross build --bin $BIN --release --target aarch64-unknown-linux-musl
 rm -rf $FN_DIR 2>/dev/null || true
 mkdir -p $FN_DIR
 cp $RELEASE_DIR/$BIN $FN_DIR/bootstrap
