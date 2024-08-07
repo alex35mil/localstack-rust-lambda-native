@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "libiconv@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#libiconv",
+      "source": "devbox-search",
+      "version": "99",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pb4vbsfgdik0qizna8vrdzk0jv746rgy-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ddlxlq7cmqp2kpxi7wcskmk2d2ygn8d6-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/pb4vbsfgdik0qizna8vrdzk0jv746rgy-libiconv-99"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/il33wi4r6l5zqchf999yg71br737hyqv-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/28fjagb3hixyhyff63pskzrnw5h5zgji-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/il33wi4r6l5zqchf999yg71br737hyqv-libiconv-99"
+        }
+      }
+    },
+    "localstack@latest": {
+      "last_modified": "2024-08-04T00:20:25Z",
+      "resolved": "github:NixOS/nixpkgs/f3834de3782b82bfc666abf664f946d0e7d1f116#localstack",
+      "source": "devbox-search",
+      "version": "3.5.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j0pd8h97zrri9iwj9ly7cjq53fik3m89-python3.12-localstack-3.5.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rcn9bdx7phk2fxs3xfywan4k3nvkn092-python3.12-localstack-3.5.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/j0pd8h97zrri9iwj9ly7cjq53fik3m89-python3.12-localstack-3.5.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/44lns0mc6n82l13f26z65mrn15f0rjwj-python3.12-localstack-3.5.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/fsq46w8r1cvwhn704gzjp8ny6shlcscl-python3.12-localstack-3.5.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/44lns0mc6n82l13f26z65mrn15f0rjwj-python3.12-localstack-3.5.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cnwjpd2n7g898qdx6svscxq68agk2vjh-python3.12-localstack-3.5.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/ngk09yhir7dsdxiw6kiqb7s9qgrajx7d-python3.12-localstack-3.5.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/cnwjpd2n7g898qdx6svscxq68agk2vjh-python3.12-localstack-3.5.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gjshpyvvxd38hsjgdhywzmrzy7441s73-python3.12-localstack-3.5.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/f4bh465jq0nan8fpgwqynnkb5nsr4zc2-python3.12-localstack-3.5.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/gjshpyvvxd38hsjgdhywzmrzy7441s73-python3.12-localstack-3.5.0"
+        }
+      }
+    }
+  }
+}

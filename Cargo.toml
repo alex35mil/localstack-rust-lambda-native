@@ -1,0 +1,8 @@
+[package]
+name = "hello-world-fn"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.39.2", features = ["rt-multi-thread", "macros"] }
+lambda_http = "0.13.0"
