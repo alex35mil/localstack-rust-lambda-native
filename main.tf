@@ -22,6 +22,7 @@ resource "aws_lambda_function" "hello_world" {
   filename         = local.fn_archive
   source_code_hash = filebase64sha256(local.fn_archive)
   runtime          = "provided.al2"
+  architectures    = ["arm64"]
 
   environment {
     variables = {
