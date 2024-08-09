@@ -15,7 +15,7 @@ RELEASE_DIR=target/$TARGET/release
 FN_DIR=$LAMBDA_DIR/$BIN
 
 mkdir -p $LAMBDA_DIR
-cargo zigbuild --bin $BIN --release --target $TARGET.2.27
+cargo zigbuild --bin $BIN --release --target $TARGET
 rm -rf $FN_DIR 2>/dev/null || true
 mkdir -p $FN_DIR
 cp $RELEASE_DIR/$BIN $FN_DIR/bootstrap

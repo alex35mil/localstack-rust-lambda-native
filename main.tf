@@ -21,7 +21,7 @@ resource "aws_lambda_function" "hello_world" {
   handler          = "bootstrap"
   filename         = local.fn_archive
   source_code_hash = filebase64sha256(local.fn_archive)
-  runtime          = "provided.al2"
+  runtime          = "provided.al2023"
   architectures    = ["arm64"]
 
   environment {
